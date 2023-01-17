@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 })
 
 app.post("/checkout", async (req, res) => {
-    console.log("Request:", req.body);
+    console.log("Request:", req.body); 
 
     let error;
     let status;

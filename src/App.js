@@ -16,7 +16,7 @@ function App() {
       console.log("THE USER IS >>> ", authUser);
       if(authUser){
         // The user just logged in
-        dispatch({
+        dispatch({ 
           type: "SET_USER",
           user: authUser,
         });

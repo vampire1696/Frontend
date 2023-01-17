@@ -12,7 +12,7 @@ import {toast} from "react-toastify";
 toast.configure();
 
 function Subtotal() {
-    const Navigate = useNavigate();
+    const Navigate = useNavigate(); 
     const [{basket, user}, dispatch] = useStateValue();
     const total = getBasketTotal(basket);
 

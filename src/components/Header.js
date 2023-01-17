@@ -11,7 +11,7 @@ function Header() {
     const [{basket}, dispatch] = useStateValue();
     const [user, setUser] = useState({});
     onAuthStateChanged(auth, (currentUser) => {
-        setUser(currentUser);
+        setUser(currentUser); 
     })
     const handleAuthentication = async () => {
         if(user){

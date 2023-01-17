@@ -9,7 +9,7 @@ function CheckoutProduct({id, image, title, price, rating}) {
             type: "REMOVE_FROM_BASKET",
             id: id,
         })
-    }
+    } 
   return (
     <div className="checkoutProduct">
         <img className="checkoutProduct_image" src={image} />
